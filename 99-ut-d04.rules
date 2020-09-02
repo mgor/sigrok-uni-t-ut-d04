@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="usb", ENV{PRODUCT}=="1a86/e008/1400", ENV{DEVTYPE}=="usb_device" RUN+="/bin/bash /usr/local/bin/ut-d04.suspend.bash %p"
